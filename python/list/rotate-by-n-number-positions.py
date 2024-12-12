@@ -1,8 +1,8 @@
-num=input("enter numbers with spaces:")
-lst=num.split()
+def rotate_list(lst, n):
+    n = n % len(lst)  # Handle cases where N is larger than the list length
+    return lst[-n:] + lst[:-n]
 
-value=input("enter the value to count for occurences:")
-
-count=lst.count(value)
-
-print(f"the value {value} occurs {count} times")
+# Example usage:
+lst = [1, 2, 3, 4, 5]
+n = 2
+print(rotate_list(lst, n))  # Output: [4, 5, 1, 2, 3]
