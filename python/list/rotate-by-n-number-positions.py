@@ -1,7 +1,9 @@
 def rotate_list(lst, n):
-    n = n % len(lst)  # Handle cases where N is larger than the list length
+    n = n % len(lst)
     return lst[-n:] + lst[:-n]
 
-lst = [1, 2, 3, 4, 5]
-n = 2
+num=input("enter numbers with spaces:")
+lst=num.split()
+
+n=int(input("enter the number from which it shld be rotated:"))
 print(rotate_list(lst, n)) 
