@@ -7,5 +7,5 @@ sum_columns = np.sum(array_2d, axis=0)
 
 print("2D Array:")
 print(array_2d)
-print("\nSum of Rows:", sum_rows)
-print("Sum of Columns:", sum_columns)
+print(f"\nSum of Rows: {sum_rows}")
+print(f"Sum of Columns: {sum_columns}")

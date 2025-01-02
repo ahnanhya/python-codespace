@@ -7,4 +7,4 @@ b = eq.array([5, 6])
 #linalg function 
 x = eq.linalg.solve(A, b)
 
-print("Solution to the system of equations:", x)
+print(f"Solution to the system of equations: {x}")
