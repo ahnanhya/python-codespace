@@ -7,7 +7,7 @@ for _ in range(n):
 
     my_dict[key]=value
 
-my_dict["state"]="tamil nadu"
+my_dict["state"] = "tamilnadu"
 print(f"after adding:{my_dict}")
 
 del my_dict["state"]
